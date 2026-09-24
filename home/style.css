@@ -1,0 +1,155 @@
+*{
+    text-decoration: none;
+}
+#nav{
+    height:100px;
+    background-color: #2660FF;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left:10px;
+    padding-right:60px;
+}
+#names{
+    display:flex;
+    gap:30px;
+    align-items: center;
+}
+#name{
+    color:white;
+}
+#logo{
+    height:80px;
+    width:90px
+}
+#links{
+    display: flex;
+    gap:30px
+}
+#links>a{
+    font-size: 25px;
+    color:white
+}
+*{
+    margin:0;
+    padding:0;
+         font-family: "Afacad Flux", sans-serif;
+
+}
+#main{
+    background-color: #061029;
+    display:flex;
+    padding-left:110px;
+    align-items: center;
+    gap:260px;
+    padding-top:50px;
+    padding-bottom:50px
+}
+#main>div>h1{
+   color:white;
+   font-size: 43px;
+}
+#main>div>p{
+    color:white;
+    width:600px
+}
+#main>div{
+    display: flex;
+    flex-direction: column;
+    gap:20px
+}
+#cimage{
+    height:400px;
+    width:400px
+}
+#footer{
+    padding:15px;
+    background-color: #1A2555;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left:30px;
+    padding-right:100px
+}
+#footer>#mfooter>h1{
+    color:white
+}
+#mfooter{
+    display:flex;
+    gap:20px;
+    align-items: center;
+}
+#qlinks>h1{
+    font-size: 25px;
+    color:white;
+}
+#qlinks{
+    display:flex;
+    flex-direction: column;
+    gap:10px
+}
+#linkss{
+    display: flex;
+    flex-direction: column;
+    gap:5px
+}
+#linkss>a{
+    color:white
+}
+@media (max-width:600px){
+    #name{
+        font-size:10px;
+    }
+    #links>a{
+        font-size:15px
+    }
+    #nav{
+        height:50px;
+        padding:0;
+        padding-right:10px
+
+    }
+    #logo{
+        height:40px;
+        width:45px
+    }
+    #names{
+        gap:10px
+    }
+    #main>div>h1{
+        font-size: 30px;
+    }
+    #main{
+        padding-top:70px;
+        padding-bottom:150px;
+padding-right:10px;
+padding-left:10px;
+        justify-content: center;
+        flex-direction: column;
+        gap:50px
+    }
+    #main>div>p{
+        font-size: 12px;
+        width:350px
+    }
+    #main>img{
+        height:300px;
+        width:300px
+    }
+#flogo{
+height:50px;
+width:50px    
+}
+#mfooter>h1{
+    font-size: 20px;
+}
+#mfooter{
+    gap:5px
+}
+#footer{
+    padding:15px;
+    gap:10px;
+    padding-left:10px;
+    padding-right:25px
+}
+}
